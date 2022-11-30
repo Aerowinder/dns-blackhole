@@ -46,7 +46,7 @@ Set-Content -Path $blocklist -Value $list_combined
 
 if ($git -eq 'add-commit-push') {
     $dt = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
-    git -C $base add $blocklist
+    git -C $base add $blocklist #-C $base so script can be executed outside of the working directory.
     git -C $base commit -m "Updated: $dt"
     git -C $base push origin main
 }
