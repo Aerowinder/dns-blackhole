@@ -1,3 +1,5 @@
+param([ValidateSet("add-commit-push")][string]$git)
+
 $dir_txt = 'txt\'
 $dir_txt_dl = $dir_txt + 'download\'
 $hostlist = $dir_txt + 'host-list.txt'
@@ -40,3 +42,10 @@ $list_combined = $list_combined  -Replace $regex_line_cleanup, '' | Sort-Object 
 
 Write-Host "Saving block list..."
 Set-Content -Path $blocklist -Value $list_combined
+
+if ($git -eq 'add-commit-push') {
+    $dt = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
+    git add $blocklist
+    git commit -m "Updated: $dt"
+    git push origin main
+}
