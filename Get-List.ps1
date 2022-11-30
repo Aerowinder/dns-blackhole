@@ -1,6 +1,7 @@
 param([ValidateSet("add-commit-push")][string]$git)
 
-$dir_txt = 'txt\'
+[string]$base = $PSScriptRoot
+$dir_txt = $base + '\txt\'
 $dir_txt_dl = $dir_txt + 'download\'
 $hostlist = $dir_txt + 'host-list.txt'
 $blocklist = $dir_txt + 'block.txt'
@@ -45,7 +46,7 @@ Set-Content -Path $blocklist -Value $list_combined
 
 if ($git -eq 'add-commit-push') {
     $dt = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
-    git add $blocklist
-    git commit -m "Updated: $dt"
-    git push origin main
+    git -C $base add $blocklist
+    git -C $base commit -m "Updated: $dt"
+    git -C $base push origin main
 }
