@@ -1,0 +1,8 @@
+#SEL Compass functionality
+discover.selinc.com
+
+#Milwaukee catalog search - search entries
+tags.tiqcdn.com
+
+#Malwarebytes EP/EDR telemetry
+telemetry.malwarebytes.com
