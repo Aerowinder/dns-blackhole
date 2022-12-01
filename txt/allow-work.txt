@@ -1,7 +1,7 @@
 #SEL Compass functionality
 discover.selinc.com
 
-#Milwaukee catalog search - search entries
+#Milwaukee catalog search - search entries (all results appear white; fail to load data)
 tags.tiqcdn.com
 
 #Malwarebytes EP/EDR telemetry
