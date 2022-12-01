@@ -1,7 +1,7 @@
 param([ValidateSet("add-commit-push")][string]$git)
 
-[string]$base = $PSScriptRoot
-$dir_txt = $base + '\txt\'
+[string]$base = $PSScriptRoot + '\'
+$dir_txt = $base + 'txt\'
 $dir_txt_dl = $dir_txt + 'download\'
 $hostlist = $dir_txt + 'host-list.txt'
 $blocklist = $dir_txt + 'block.txt'
