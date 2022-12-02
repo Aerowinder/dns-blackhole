@@ -50,3 +50,6 @@ if ($git -eq 'add-commit-push') {
     git -C $base commit -m "Updated: $dt"
     git -C $base push origin main
 }
+
+#Changelog
+#2022-12-02 - AS - v1, First release.

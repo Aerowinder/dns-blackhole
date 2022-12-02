@@ -10,3 +10,6 @@ Write-Host 'Search Term:' $search '| Results:' $blackhole.Length -ForegroundColo
 Write-Host
 foreach ($entry in $blackhole) {Write-Host $entry -ForegroundColor Green}
 Write-Host
+
+#Changelog
+#2022-12-02 - AS - v1, First release.
