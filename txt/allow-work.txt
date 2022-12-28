@@ -1,8 +1,11 @@
-#SEL Compass functionality
-discover.selinc.com
+#Microsoft Internet connection test
+www.msftconnecttest.com
+
+#Malwarebytes EP/EDR telemetry
+telemetry.malwarebytes.com
 
 #Milwaukee catalog search - search entries (all results appear white; fail to load data)
 tags.tiqcdn.com
 
-#Malwarebytes EP/EDR telemetry
-telemetry.malwarebytes.com
+#SEL Compass functionality
+discover.selinc.com
