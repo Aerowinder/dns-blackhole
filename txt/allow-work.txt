@@ -1,8 +1,3 @@
-#Microsoft Internet connection test - #1 redirects to #2, #2 redirects to #3
-www.msftconnecttest.com
-ncsi-geo.trafficmanager.net
-v4ncsi.msedge.net
-
 #Malwarebytes EP/EDR telemetry
 telemetry.malwarebytes.com
 
