@@ -1,6 +1,3 @@
-#Microsoft Internet connection test
-www.msftconnecttest.com
-
 #Malwarebytes EP/EDR telemetry
 telemetry.malwarebytes.com
 
