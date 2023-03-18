@@ -19,3 +19,9 @@ x3-predictor.goguardian.com
 
 #Microsoft Internet connection test
 www.msftconnecttest.com
+
+#Meijer - online shopping product description
+meijer.tt.omtrdc.net
+
+#Meijer - unknown purpose, don't know what breaks if this is left out
+sstats.meijer.com
