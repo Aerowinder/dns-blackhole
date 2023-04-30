@@ -4,5 +4,8 @@ telemetry.malwarebytes.com
 #Milwaukee catalog search - search entries (all results appear white; fail to load data)
 tags.tiqcdn.com
 
+#OpenAI (ChatGPT)
+auth0.openai.com
+
 #SEL Compass functionality
 discover.selinc.com

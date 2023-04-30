@@ -26,3 +26,6 @@ meijer.tt.omtrdc.net
 
 #Meijer - unknown purpose, don't know what breaks if this is left out
 sstats.meijer.com
+
+#OpenAI (ChatGPT)
+auth0.openai.com
