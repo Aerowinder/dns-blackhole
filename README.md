@@ -28,7 +28,6 @@ Firebog | https://v.firebog.net/hosts/Prigent-Crypto.txt
 Firebog | https://v.firebog.net/hosts/static/w3kbl.txt
 ethanr | https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
 quidsup | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
-osint | https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 Phishing Army | https://phishing.army/download/phishing_army_blocklist_extended.txt
 zerodot1 | https://zerodot1.gitlab.io/CoinBlockerLists/list.txt
 
