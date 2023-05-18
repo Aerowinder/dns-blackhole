@@ -29,3 +29,6 @@ sstats.meijer.com
 
 #OpenAI (ChatGPT)
 auth0.openai.com
+
+#Pizza Hut Android/iOS App
+mobile-collector.newrelic.com
