@@ -1,3 +1,6 @@
+#Homepage
+cdn.jsdelivr.net
+
 #Malwarebytes EP/EDR telemetry
 telemetry.malwarebytes.com
 

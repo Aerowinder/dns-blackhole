@@ -17,6 +17,9 @@ snat.goguardian.com
 x3-policy-maker.goguardian.com
 x3-predictor.goguardian.com
 
+#Homepage
+cdn.jsdelivr.net
+
 #Microsoft Internet connection test
 www.msftconnecttest.com
 ipv6.msftconnecttest.com
