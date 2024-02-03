@@ -1,3 +1,7 @@
+#Apple
+tr.iadsdk.apple.com
+is1-ssl.mzstatic.com
+
 #GoGuardian - required, seems to be mostly working
 sakura.goguardian.com
 screenshots.goguardian.com
