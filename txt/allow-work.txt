@@ -4,6 +4,9 @@ cdn.jsdelivr.net
 #Malwarebytes EP/EDR telemetry
 telemetry.malwarebytes.com
 
+#Microsoft Office (Azure DRM)
+aadrm.com
+
 #Milwaukee catalog search - search entries (all results appear white; fail to load data)
 tags.tiqcdn.com
 
