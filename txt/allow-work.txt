@@ -1,3 +1,6 @@
+#ABB - needed for PCM600 downloads
+campaign-el.abb.com
+
 #Homepage
 cdn.jsdelivr.net
 
