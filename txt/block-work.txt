@@ -1,0 +1,3 @@
+#Google Chrome Remote Desktop
+remotedesktop-pa.googleapis.com
+remotedesktop.google.com
