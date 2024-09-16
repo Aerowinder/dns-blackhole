@@ -45,7 +45,7 @@ foreach ($entry in Get-Content -Path $hostlist) {
     $i += 1
 }
 
-#Remove-Item -Path $dir_txt_dl -Recurse -Confirm:$false
+Remove-Item -Path $dir_txt_dl -Recurse -Confirm:$false
 
 Write-Host "Performing final cleanup..."
 $list_combined = $list_combined  -Replace $regex_line_cleanup, '' | Sort-Object | Get-Unique
@@ -64,4 +64,5 @@ Start-Sleep -Seconds 10 # Lazy troubleshooting. Gives me time to take a screensh
 
 #Changelog
 #2022-12-02 - AS - v1, First release.
-#2024-09-09 - AS - v2, Added more filtering for RPIMalware list (||, ^)
+#2024-09-09 - AS - v2, Added more filtering for RPIMalware list (||, ^).
+#2024-09-27 - AS - v3, Added sleep for troubleshooting error messages that appear.
