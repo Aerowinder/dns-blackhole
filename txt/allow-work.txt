@@ -4,6 +4,10 @@ campaign-el.abb.com
 #Homepage
 cdn.jsdelivr.net
 
+#Grandstream
+www.grandstream.com
+blog.grandstream.com
+
 #Malwarebytes EP/EDR telemetry
 telemetry.malwarebytes.com
 
