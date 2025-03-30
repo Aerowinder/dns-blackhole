@@ -35,7 +35,8 @@ go.microsoft.com
 www.msftconnecttest.com
 ipv6.msftconnecttest.com
 
-#Meijer - online shopping product description
+#Meijer - search results & online shopping product description
+ac.cnstrc.com
 meijer.tt.omtrdc.net
 
 #Meijer - unknown purpose, don't know what breaks if this is left out
