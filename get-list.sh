@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-GIT_ACTION="${1:-}"  # Optional argument: add-commit-push
+GIT_ACTION="${1:-}" # Optional argument: add-commit-push
 
 BASE_DIR="$(dirname "$(realpath "$0")")"
 DIR_TXT="$BASE_DIR/txt"
@@ -10,14 +10,14 @@ HOSTLIST="$DIR_TXT/host-list.txt"
 BLOCKLIST="$DIR_TXT/block.txt"
 
 REGEX_HTTP='^https?://.*'
-REGEX_LINE_CLEANUP='^127\.0\.0\.1\s*|^0\.0\.0\.0\s*|\s*#.*$|^\|\||\^$|^!'  # Added ^! to clean '!' at start
+REGEX_LINE_CLEANUP='^127\.0\.0\.1\s*|^0\.0\.0\.0\s*|\s*#.*$|^\|\||\^$|^!' # Added ^! to clean '!' at start
 REGEX_LINE_JUNK='^#|^\s*#|^\s*$|::|^!'
 
 # Create temp directory for downloads
 TMP_DIR=$(mktemp -d)
 TMP_FILE="$TMP_DIR/combined.txt"
 mkdir -p "$TMP_DIR"
-> "$TMP_FILE"  # truncate or create fresh temp file
+> "$TMP_FILE" # Truncate or create fresh temp file
 
 i=1
 while IFS= read -r entry; do
@@ -54,7 +54,7 @@ if [[ "$GIT_ACTION" == "add-commit-push" ]]; then
     git push origin main
 fi
 
-sleep 10  # Lazy troubleshooting
+# sleep 10  # Lazy troubleshooting
 
 #Changelog
 #2025-05-17 - AS - v1, First release.
