@@ -1,2 +1,0 @@
-# Force shell scripts to use LF
-*.sh text eol=lf
