@@ -1,0 +1,27 @@
+#ABB - needed for PCM600 downloads
+campaign-el.abb.com
+
+#Homepage
+cdn.jsdelivr.net
+
+#Grandstream
+www.grandstream.com
+blog.grandstream.com
+
+#Malwarebytes EP/EDR telemetry
+telemetry.malwarebytes.com
+
+#Microsoft download links
+go.microsoft.com
+
+#Microsoft Office (Azure DRM)
+aadrm.com
+
+#Milwaukee catalog search - search entries (all results appear white; fail to load data)
+tags.tiqcdn.com
+
+#OpenAI (ChatGPT)
+auth0.openai.com
+
+#SEL Compass functionality
+discover.selinc.com
