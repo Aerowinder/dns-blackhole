@@ -2,6 +2,10 @@
 tr.iadsdk.apple.com
 is1-ssl.mzstatic.com
 
+#Education Tomorrow
+elinkccc.edtomorrow.org
+www.edtomorrow.com
+
 #GoGuardian - required, seems to be mostly working
 sakura.goguardian.com
 screenshots.goguardian.com
@@ -44,6 +48,9 @@ sstats.meijer.com
 
 #OpenAI (ChatGPT)
 auth0.openai.com
+
+#Panasonic
+connect.na.panasonic.com
 
 #Pizza Hut Android/iOS App
 mobile-collector.newrelic.com
