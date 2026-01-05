@@ -1,0 +1,56 @@
+#Apple
+tr.iadsdk.apple.com
+is1-ssl.mzstatic.com
+
+#Education Tomorrow
+elinkccc.edtomorrow.org
+www.edtomorrow.com
+
+#GoGuardian - required, seems to be mostly working
+sakura.goguardian.com
+screenshots.goguardian.com
+sockjs-goguardian.pusher.com
+ws-goguardian.pusher.com
+
+#GoGuardian - unknown purpose, don't know what breaks if these are left out
+beacon-fullpage-predictor.goguardian.com
+countvoncount.goguardian.com
+ext.goguardian.com
+go.goguardian.com
+inquisition.goguardian.com
+ip.goguardian.com
+panther.goguardian.com
+quiddity.goguardian.com
+snat.goguardian.com
+x3-policy-maker.goguardian.com
+x3-predictor.goguardian.com
+
+#Homepage
+cdn.jsdelivr.net
+
+#Grandstream
+www.grandstream.com
+blog.grandstream.com
+
+#Microsoft download links
+go.microsoft.com
+
+#Microsoft Internet connection test
+www.msftconnecttest.com
+ipv6.msftconnecttest.com
+
+#Meijer - search results & online shopping product description
+ac.cnstrc.com
+meijer.tt.omtrdc.net
+
+#Meijer - unknown purpose, don't know what breaks if this is left out
+sstats.meijer.com
+
+#OpenAI (ChatGPT)
+auth0.openai.com
+
+#Panasonic
+connect.na.panasonic.com
+
+#Pizza Hut Android/iOS App
+mobile-collector.newrelic.com
