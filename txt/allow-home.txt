@@ -2,8 +2,10 @@
 tr.iadsdk.apple.com
 is1-ssl.mzstatic.com
 
-#Education Tomorrow
+#Education Tomorrow - html-load.com is REQUIRED for ads, or you get a popup asking you to unblock the domain.
+edtomorrow.com
 elinkccc.edtomorrow.org
+html-load.com
 www.edtomorrow.com
 
 #GoGuardian - required, seems to be mostly working
@@ -54,3 +56,7 @@ connect.na.panasonic.com
 
 #Pizza Hut Android/iOS App
 mobile-collector.newrelic.com
+
+
+#Unknown - AI says it's for Constant Contact. Maybe Survey Monkey of Google Forms stuff?
+ko4t7mebb.cc.rs6.net
